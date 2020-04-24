@@ -3,6 +3,7 @@
 ## tcpdump
 
 Sniff data and cut it every 10 MB. Also output it to a testfile AND append a digit after that. The -i stands for the interface.
+
 `tcpdump -i ens192 -C 10m -w TESTFILE`
 
 Output should look like this:
