@@ -7,11 +7,11 @@ Sniff data and cut it every 10 MB. Also output it to a testfile AND append a dig
 
 Output should look like this:
 ```
-> root@somemachine:/tmp# ls -lah
-> -rw-r--r--  1 root root 9.6M Apr 24 06:54 TESTFILE
-> -rw-r--r--  1 root root 9.6M Apr 24 06:54 TESTFILE1
-> -rw-r--r--  1 root root 9.6M Apr 24 06:54 TESTFILE2
-> -rw-r--r--  1 root root 9.3M Apr 24 06:54 TESTFILE3
+root@somemachine:/tmp# ls -lah
+-rw-r--r--  1 root root 9.6M Apr 24 06:54 TESTFILE
+-rw-r--r--  1 root root 9.6M Apr 24 06:54 TESTFILE1
+-rw-r--r--  1 root root 9.6M Apr 24 06:54 TESTFILE2
+-rw-r--r--  1 root root 9.3M Apr 24 06:54 TESTFILE3
 ```
 
 you get the idea.
